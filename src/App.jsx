@@ -2,6 +2,7 @@ import React from 'react';
 import { StreamChat } from 'stream-chat';
 import { Chat } from 'stream-chat-react';
 import Cookies from 'universal-cookie';
+import { ChannelContainer, ChannelListContainer } from './components';
 
 const apikey = 'sdk65ntx9ed9';
 
@@ -18,9 +19,10 @@ const App = () => {
 
                 />
             </Chat>
-
         </div>
     );
 }
 
 export default App;
+
+//17.32
